@@ -6,6 +6,10 @@
 
 echo 'Hello worldz!';
 
+$file = file_get_contents('best person.txt');
+
+echo $file.' is best person in the world';
+
 ?>
 </body>
 </html>
